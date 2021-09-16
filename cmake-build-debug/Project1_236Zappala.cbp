@@ -1,0 +1,119 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CodeBlocks_project_file>
+	<FileVersion major="1" minor="6"/>
+	<Project>
+		<Option title="Project1_236Zappala"/>
+		<Option makefile_is_custom="1"/>
+		<Option compiler="gcc"/>
+		<Option virtualFolders="CMake Files\;"/>
+		<Build>
+			<Target title="all">
+				<Option working_dir="/Users/emmazappala/Downloads/Project1_236Zappala/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/Users/emmazappala/Downloads/Project1_236Zappala/cmake-build-debug/Makefile&quot;  VERBOSE=1 all"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/Users/emmazappala/Downloads/Project1_236Zappala/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/Users/emmazappala/Downloads/Project1_236Zappala/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/Users/emmazappala/Downloads/Project1_236Zappala/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="rebuild_cache">
+				<Option working_dir="/Users/emmazappala/Downloads/Project1_236Zappala/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/Users/emmazappala/Downloads/Project1_236Zappala/cmake-build-debug/Makefile&quot;  VERBOSE=1 rebuild_cache"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/Users/emmazappala/Downloads/Project1_236Zappala/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/Users/emmazappala/Downloads/Project1_236Zappala/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/Users/emmazappala/Downloads/Project1_236Zappala/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="edit_cache">
+				<Option working_dir="/Users/emmazappala/Downloads/Project1_236Zappala/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/Users/emmazappala/Downloads/Project1_236Zappala/cmake-build-debug/Makefile&quot;  VERBOSE=1 edit_cache"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/Users/emmazappala/Downloads/Project1_236Zappala/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/Users/emmazappala/Downloads/Project1_236Zappala/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/Users/emmazappala/Downloads/Project1_236Zappala/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="Project1_236Zappala">
+				<Option output="/Users/emmazappala/Downloads/Project1_236Zappala/cmake-build-debug/Project1_236Zappala" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Users/emmazappala/Downloads/Project1_236Zappala/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/Users/emmazappala/Downloads/Project1_236Zappala/."/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/bin/../include/c++/v1"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/lib/clang/12.0.0/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/include"/>
+					<Add directory="/System/Library/Frameworks"/>
+					<Add directory="/Library/Frameworks"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/Users/emmazappala/Downloads/Project1_236Zappala/cmake-build-debug/Makefile&quot;  VERBOSE=1 Project1_236Zappala"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/Users/emmazappala/Downloads/Project1_236Zappala/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/Users/emmazappala/Downloads/Project1_236Zappala/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/Users/emmazappala/Downloads/Project1_236Zappala/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="Project1_236Zappala/fast">
+				<Option output="/Users/emmazappala/Downloads/Project1_236Zappala/cmake-build-debug/Project1_236Zappala" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Users/emmazappala/Downloads/Project1_236Zappala/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/Users/emmazappala/Downloads/Project1_236Zappala/."/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/bin/../include/c++/v1"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/lib/clang/12.0.0/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/include"/>
+					<Add directory="/System/Library/Frameworks"/>
+					<Add directory="/Library/Frameworks"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/Users/emmazappala/Downloads/Project1_236Zappala/cmake-build-debug/Makefile&quot;  VERBOSE=1 Project1_236Zappala/fast"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/Users/emmazappala/Downloads/Project1_236Zappala/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/Users/emmazappala/Downloads/Project1_236Zappala/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/Users/emmazappala/Downloads/Project1_236Zappala/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+		</Build>
+		<Unit filename="/Users/emmazappala/Downloads/Project1_236Zappala/Automaton.h">
+			<Option target="Project1_236Zappala"/>
+		</Unit>
+		<Unit filename="/Users/emmazappala/Downloads/Project1_236Zappala/ColonAutomaton.cpp">
+			<Option target="Project1_236Zappala"/>
+		</Unit>
+		<Unit filename="/Users/emmazappala/Downloads/Project1_236Zappala/ColonAutomaton.h">
+			<Option target="Project1_236Zappala"/>
+		</Unit>
+		<Unit filename="/Users/emmazappala/Downloads/Project1_236Zappala/ColonDashAutomaton.cpp">
+			<Option target="Project1_236Zappala"/>
+		</Unit>
+		<Unit filename="/Users/emmazappala/Downloads/Project1_236Zappala/ColonDashAutomaton.h">
+			<Option target="Project1_236Zappala"/>
+		</Unit>
+		<Unit filename="/Users/emmazappala/Downloads/Project1_236Zappala/Lexer.cpp">
+			<Option target="Project1_236Zappala"/>
+		</Unit>
+		<Unit filename="/Users/emmazappala/Downloads/Project1_236Zappala/Lexer.h">
+			<Option target="Project1_236Zappala"/>
+		</Unit>
+		<Unit filename="/Users/emmazappala/Downloads/Project1_236Zappala/Token.cpp">
+			<Option target="Project1_236Zappala"/>
+		</Unit>
+		<Unit filename="/Users/emmazappala/Downloads/Project1_236Zappala/Token.h">
+			<Option target="Project1_236Zappala"/>
+		</Unit>
+		<Unit filename="/Users/emmazappala/Downloads/Project1_236Zappala/main.cpp">
+			<Option target="Project1_236Zappala"/>
+		</Unit>
+		<Unit filename="/Users/emmazappala/Downloads/Project1_236Zappala/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\"/>
+		</Unit>
+	</Project>
+</CodeBlocks_project_file>
