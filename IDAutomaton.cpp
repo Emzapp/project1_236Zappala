@@ -17,7 +17,7 @@ void IDAutomaton::S1(const std::string& input) {
     int numberReadThrough = 1;
 
     while(isalpha(input[index])| isdigit(input[index])){
-        if(substring=="Queries"|substring=="Rules"|substring=="Facts"|substring=="Schemes"){
+        if((substring=="Queries")|(substring=="Rules")|(substring=="Facts")|(substring=="Schemes")){
             Serr();
         } else {
             substring.push_back(input[index]);
