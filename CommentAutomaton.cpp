@@ -10,10 +10,12 @@ void CommentAutomaton::S0(const std::string& input) {
         substring = "";
         if (input[index] == '|') {
             index++;
+            std::cout << "reading "<< input[index] << endl;
             CommentAutomaton::S2(input);
             std::cout << "going to state 2" << std::endl;
         } else {
             CommentAutomaton::S1(input);
+            std::cout << "reading "<< input[index] << endl;
             std::cout << "going to state 1" << std::endl;
         }
     } else {
