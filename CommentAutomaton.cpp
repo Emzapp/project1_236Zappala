@@ -42,6 +42,7 @@ void CommentAutomaton::S2(const std::string& input) {
         if(input[index]=='#'){
             if(input[index+1]=='|'){
                 inputRead++;
+                std::cout << " here we found the end of a comment woot woot cool" << std::endl;
                 break;
             }
         }
