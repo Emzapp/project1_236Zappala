@@ -36,7 +36,8 @@ void CommentAutomaton::S1(const std::string& input) {
 void CommentAutomaton::S2(const std::string& input) {
     substring = "#|";
     while((input[index]!='#')) {
-        if(input[index+1]=='|') {
+        int dummyindex = index + 1;
+        if(input[dummyindex]=='|') {
             break;
         }
         if(input[index]=='\n'){
