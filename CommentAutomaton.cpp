@@ -11,8 +11,10 @@ void CommentAutomaton::S0(const std::string& input) {
         if (input[index] == '|') {
             index++;
             CommentAutomaton::S2(input);
+            std::cout << "going to state 2" << std::endl;
         } else {
             CommentAutomaton::S1(input);
+            std::cout << "going to state 2" << std::endl;
         }
     } else {
         Serr();
