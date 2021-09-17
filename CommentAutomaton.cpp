@@ -41,8 +41,8 @@ void CommentAutomaton::S2(const std::string& input) {
     while(run) {
         std::cout << "looking at " << input[index] << " in state 2." << std::endl;
         substring.push_back(input[index]);
-        if(input[index]=='#'){
-            if(input[index+1]=='|'){
+        if(input[index]=='|'){
+            if(input[index+1]=='#'){
                 inputRead++;
                 std::cout << " here we found the end of a comment woot woot cool" << std::endl;
                 break;
