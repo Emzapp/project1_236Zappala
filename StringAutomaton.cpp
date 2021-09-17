@@ -38,6 +38,9 @@ void StringAutomaton::S1(const std::string& input) {
 
 void StringAutomaton::S2(const std::string& input){
     if(input[index]=='\'') {
+        std::cout << "in the second state" << std::endl;
         S1(input);
+        index++;
+        inputRead++;
     }
 }
