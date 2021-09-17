@@ -10,14 +10,13 @@ void CommentAutomaton::S0(const std::string& input) {
         substring = "";
         if (input[index] == '|') {
             index++;
-            std::cout << "reading "<< input[index] << std::endl;
             std::cout << "going to state 2" << std::endl;
             CommentAutomaton::S2(input);
 
         } else {
-            CommentAutomaton::S1(input);
             std::cout << "going to state 1" << std::endl;
-            std::cout << "reading "<< input[index] << std::endl;
+            CommentAutomaton::S1(input);
+
 
         }
     } else {
@@ -42,6 +41,7 @@ void CommentAutomaton::S2(const std::string& input) {
         std::cout << "looking at " << input[index] << " in state 2." << std::endl;
         substring.push_back(input[index]);
         if(input[index]=='|'){
+            std::cout << "equal to |" << std::endl;
             if(input[index+1]=='#'){
                 inputRead++;
                 std::cout << " here we found the end of a comment woot woot cool" << std::endl;
