@@ -43,6 +43,7 @@ void CommentAutomaton::S2(const std::string& input) {
         substring.push_back(input[index]);
         if(input[index]=='#'){
             if(input[index+1]=='|'){
+                inputRead++;
                 break;
             }
         }
