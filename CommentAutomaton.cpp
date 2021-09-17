@@ -32,7 +32,7 @@ void CommentAutomaton::S1(const std::string& input) {
 
 void CommentAutomaton::S2(const std::string& input) {
     substring = "#|";
-    while(input[index]!='#'&&input[index+1]!='|') {
+    while((input[index]!='#')&(input[index+1]!='|')) {
         if(input[index]=='\n'){
             newLines++;
         }
