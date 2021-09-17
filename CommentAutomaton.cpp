@@ -35,15 +35,17 @@ void CommentAutomaton::S1(const std::string& input) {
 
 void CommentAutomaton::S2(const std::string& input) {
     substring = "#|";
-    while((input[index]!='#')) {
-        int dummyindex = index + 1;
-        if(input[dummyindex]=='|') {
-            break;
-        }
+    bool run = true;
+    while(run) {
         if(input[index]=='\n'){
             newLines++;
         }
         substring.push_back(input[index]);
+        if(input[index]=='#'){
+            if(input[index+1]=="|"]){
+                break;
+            }
+        }
         index++;
         inputRead++;
         std::cout << "looking at " << input[index] << " in state 2." << std::endl;
