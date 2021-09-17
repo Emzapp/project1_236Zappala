@@ -38,9 +38,7 @@ void CommentAutomaton::S2(const std::string& input) {
     substring = "#|";
     bool run = true;
     while(run) {
-        if (index == input.size() - 1) {
-            inputRead++;
-            if (input[index]=='\n') newLines++;
+        if (index == input.size()) {
             type = TokenType::UNDEFINED;
             break;
         }
