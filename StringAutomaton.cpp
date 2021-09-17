@@ -19,6 +19,7 @@ void StringAutomaton::S1(const std::string& input) {
     if (index == input.size() - 1) {
         inputRead++;
         type = TokenType::UNDEFINED;
+        newLines++;
     } else {
         while (input[index] != '\'') {
             if (input[index] == '\n') {
