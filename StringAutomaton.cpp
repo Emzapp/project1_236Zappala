@@ -27,18 +27,18 @@ void StringAutomaton::S1(const std::string& input) {
             substring.push_back(input[index]);
             index++;
             inputRead++;
-            if (input[index] == '\'') {
-                index++;
-                inputRead++;
-                StringAutomaton::S2(input);
-            }
         }
+        if (input[index] == '\'') {
+            index++;
+            inputRead++;
+            StringAutomaton::S2(input);
+            }
+
     }
 }
 
 void StringAutomaton::S2(const std::string& input){
     if(input[index]=='\'') {
-        std::cout << "in the second state" << std::endl;
         substring.push_back(input[index]);
         index++;
         inputRead++;
