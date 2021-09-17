@@ -44,6 +44,7 @@ void CommentAutomaton::S2(const std::string& input) {
             std::cout << "equal to |" << std::endl;
             if(input[index+1]=='#'){
                 inputRead++;
+                inputRead++;
                 std::cout << " here we found the end of a comment woot woot cool" << std::endl;
                 break;
             }
