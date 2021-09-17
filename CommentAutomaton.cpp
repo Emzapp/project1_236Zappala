@@ -38,6 +38,12 @@ void CommentAutomaton::S2(const std::string& input) {
     substring = "#|";
     bool run = true;
     while(run) {
+        if (index == input.size() - 1) {
+            inputRead++;
+            if (input[index]=='\n') newLines++;
+            type = TokenType::UNDEFINED;
+            break;
+        }
         //std::cout << "looking at " << input[index] << " in state 2." << std::endl;
         substring.push_back(input[index]);
         if(input[index]=='|'){
@@ -56,12 +62,7 @@ void CommentAutomaton::S2(const std::string& input) {
         index++;
         inputRead++;
 
-        if (index == input.size() - 1) {
-            inputRead++;
-            if (input[index]=='\n') newLines++;
-            type = TokenType::UNDEFINED;
-            break;
-        }
+
 
     }
     substring.push_back('#');
