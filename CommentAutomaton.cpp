@@ -37,7 +37,7 @@ void CommentAutomaton::S2(const std::string& input) {
     substring = "#|";
     bool run = true;
     while(run) {
-
+        std::cout << "looking at " << input[index] << " in state 2." << std::endl;
         substring.push_back(input[index]);
         if(input[index]=='#'){
             if(input[index+1]=='|'){
@@ -50,7 +50,7 @@ void CommentAutomaton::S2(const std::string& input) {
         }
         index++;
         inputRead++;
-        std::cout << "looking at " << input[index] << " in state 2." << std::endl;
+
         if (index == input.size() - 1) {
             inputRead++;
             type = TokenType::UNDEFINED;
